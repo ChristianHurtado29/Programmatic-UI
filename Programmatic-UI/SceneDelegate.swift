@@ -36,6 +36,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // set up the window's frame to be the entire device's screen
         // instantiating the window with a frame
         window = UIWindow(frame: UIScreen.main.bounds)
+        window?.windowScene = windowScene
+//        window?.rootViewController = SettingViewController()
+        
+        // embedding a UIViewController in a UINavigationContronroller
+        window?.rootViewController = UINavigationController(rootViewController: MainViewController())
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		13479FEC23E0860A00976B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FEB23E0860A00976B22 /* AppDelegate.swift */; };
 		13479FEE23E0860A00976B22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FED23E0860A00976B22 /* SceneDelegate.swift */; };
-		13479FF023E0860A00976B22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FEF23E0860A00976B22 /* ViewController.swift */; };
+		13479FF023E0860A00976B22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FEF23E0860A00976B22 /* MainViewController.swift */; };
 		13479FF523E0860C00976B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13479FF423E0860C00976B22 /* Assets.xcassets */; };
 		13479FF823E0860C00976B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13479FF623E0860C00976B22 /* LaunchScreen.storyboard */; };
+		1347A00023E08FD400976B22 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FFF23E08FD400976B22 /* SettingViewController.swift */; };
+		1347A00223E09AE700976B22 /* MainVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347A00123E09AE700976B22 /* MainVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13479FE823E0860A00976B22 /* Programmatic-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13479FEB23E0860A00976B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13479FED23E0860A00976B22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13479FEF23E0860A00976B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13479FEF23E0860A00976B22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		13479FF423E0860C00976B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13479FF723E0860C00976B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13479FF923E0860C00976B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13479FFF23E08FD400976B22 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1347A00123E09AE700976B22 /* MainVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				13479FEB23E0860A00976B22 /* AppDelegate.swift */,
 				13479FED23E0860A00976B22 /* SceneDelegate.swift */,
-				13479FEF23E0860A00976B22 /* ViewController.swift */,
+				13479FEF23E0860A00976B22 /* MainViewController.swift */,
+				13479FFF23E08FD400976B22 /* SettingViewController.swift */,
+				1347A00123E09AE700976B22 /* MainVIew.swift */,
 				13479FF423E0860C00976B22 /* Assets.xcassets */,
 				13479FF623E0860C00976B22 /* LaunchScreen.storyboard */,
 				13479FF923E0860C00976B22 /* Info.plist */,
@@ -134,9 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13479FF023E0860A00976B22 /* ViewController.swift in Sources */,
+				13479FF023E0860A00976B22 /* MainViewController.swift in Sources */,
 				13479FEC23E0860A00976B22 /* AppDelegate.swift in Sources */,
 				13479FEE23E0860A00976B22 /* SceneDelegate.swift in Sources */,
+				1347A00223E09AE700976B22 /* MainVIew.swift in Sources */,
+				1347A00023E08FD400976B22 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
