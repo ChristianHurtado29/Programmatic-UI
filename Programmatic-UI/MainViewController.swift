@@ -25,10 +25,29 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
         configureNavBar()
+        
+        // add target/action for reset button
+        mainView.resetButton.addTarget(self, action: #selector(resetAppColor(_:)), for: .touchUpInside)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        updateAppColor()
+    }
+    
+    
+    
+    private func updateAppColor() {
+        if let colorName = UserDefaults.standard.object(forKey: AppKey.appColorKey) as? String {
+            view.backgroundColor = UIColor(named: colorName)
+        } else {
+            
+        }
+        
+        
     }
     
     private func configureNavBar() {
-        // set title of navigation bar
         navigationItem.title = "Programmatic UI"
         
         // adding a UIBarButtonItem to the navigation bar
@@ -40,8 +59,11 @@ class MainViewController: UIViewController {
         // segue to the SettingsViewController
         let settingsVC = SettingViewController()
         navigationController?.pushViewController(settingsVC, animated: true)
-
     }
-
+    
+    @objc
+    private func resetAppColor(_ sender: UIButton) {
+        print("reset app color")
+    }
 }
 

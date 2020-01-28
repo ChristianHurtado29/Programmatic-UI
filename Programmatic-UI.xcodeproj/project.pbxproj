@@ -14,6 +14,7 @@
 		13479FF823E0860C00976B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13479FF623E0860C00976B22 /* LaunchScreen.storyboard */; };
 		1347A00023E08FD400976B22 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479FFF23E08FD400976B22 /* SettingViewController.swift */; };
 		1347A00223E09AE700976B22 /* MainVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347A00123E09AE700976B22 /* MainVIew.swift */; };
+		1347A00423E0BD8300976B22 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1347A00323E0BD8300976B22 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		13479FF923E0860C00976B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13479FFF23E08FD400976B22 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		1347A00123E09AE700976B22 /* MainVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVIew.swift; sourceTree = "<group>"; };
+		1347A00323E0BD8300976B22 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				13479FED23E0860A00976B22 /* SceneDelegate.swift */,
 				13479FEF23E0860A00976B22 /* MainViewController.swift */,
 				13479FFF23E08FD400976B22 /* SettingViewController.swift */,
+				1347A00323E0BD8300976B22 /* SettingsView.swift */,
 				1347A00123E09AE700976B22 /* MainVIew.swift */,
 				13479FF423E0860C00976B22 /* Assets.xcassets */,
 				13479FF623E0860C00976B22 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				13479FF023E0860A00976B22 /* MainViewController.swift in Sources */,
 				13479FEC23E0860A00976B22 /* AppDelegate.swift in Sources */,
 				13479FEE23E0860A00976B22 /* SceneDelegate.swift in Sources */,
+				1347A00423E0BD8300976B22 /* SettingsView.swift in Sources */,
 				1347A00223E09AE700976B22 /* MainVIew.swift in Sources */,
 				1347A00023E08FD400976B22 /* SettingViewController.swift in Sources */,
 			);
